@@ -147,6 +147,7 @@ call vundle#end()
 filetype plugin indent on
 
 syntax on
+set noswapfile
 
 if need_to_install_plugins == 1
   echo "Installing plugins via Vundle. Please ignore warnings afterwards."
