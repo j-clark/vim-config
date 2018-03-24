@@ -135,6 +135,7 @@ Plugin 'mxw/vim-jsx'
 " Development Tool Integration
 "
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rhubarb'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'pivotal/tmux-config'
 Plugin 'tpope/vim-dispatch'
