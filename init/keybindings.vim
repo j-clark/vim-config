@@ -79,8 +79,11 @@ vmap <s-tab> <gv
 
 map <leader>rt :!~/.vim/bin/update_ctags 2>/dev/null &<CR>
 
-" Git blame
-map <leader>g   :Gblame<CR>
+" Git
+map <leader>gb   :Gblame<CR>
+map <leader>gs   :Gstatus<CR>
+map <leader>gd   :Gdiff<CR>
+map <leader>ge   :Gedit<CR>
 
 " Comment/uncomment lines
 map <leader>/   <plug>NERDCommenterToggle
