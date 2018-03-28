@@ -90,6 +90,7 @@ Plugin 'YankRing.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'tpope/vim-projectionist'
+Plugin 'junegunn/vim-easy-align'
 
 "
 " Window Management
