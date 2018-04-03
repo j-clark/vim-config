@@ -170,3 +170,21 @@ endif
 
 au BufRead,BufNewFile *.hamlc set ft=haml
 
+let dir = split(getcwd(), '/')[-1]
+let schemes = {
+  \ "app-workflow": "spacegray",
+  \ "api-product": "strawimodo",
+  \ "api-brightree-connector": "tropikos",
+  \ "api-email-ingestor": "two2tango",
+  \ "api-event-logger": "up",
+  \ "api-insurance-services": "vilight",
+  \ "app-landing": "vimbrant",
+  \ "chat": "tesla",
+  \ "cms-devops": "termschool",
+  \ "etl-airflow": "tchaba",
+  \ "infrastructure": "tango-desert",
+  \ }
+
+if has_key(schemes, dir)
+  execute "colorscheme " . get(schemes, dir)
+endif
