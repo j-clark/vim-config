@@ -43,6 +43,8 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'candycode.vim'
 Plugin 'Color-Sampler-Pack'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-colorscheme-switcher'
 
 "
 " Ruby / Rails

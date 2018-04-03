@@ -21,6 +21,14 @@ map Y           y$
 nmap <leader>s  :%s/
 vmap <leader>s  :s/
 
+" Switch color schemes
+nmap <leader>Sn :NextColorScheme<CR>
+nmap <leader>Sp :PrevColorScheme<CR>
+nmap <leader>Sr :RandomColorScheme<CR>
+vmap <leader>Sn :NextColorScheme<CR>
+vmap <leader>Sp :PrevColorScheme<CR>
+vmap <leader>Sr :RandomColorScheme<CR>
+
 " Split screen
 map <leader>v   :vsp<CR>
 
