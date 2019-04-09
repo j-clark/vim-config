@@ -106,7 +106,9 @@ Plugin 'mileszs/ack.vim'
 Plugin 'epmatsw/ag.vim'
 Plugin 'tpope/vim-abolish'
 Plugin 'henrik/vim-qargs'
-Plugin 'kien/ctrlp.vim'
+Plugin 'junegunn/fzf'
+" Plugin 'kien/ctrlp.vim'
+" Plugin 'JazzCore/ctrlp-cmatcher'
 
 "
 " Navigation
@@ -134,6 +136,9 @@ Plugin 'elzr/vim-json'
 Plugin 'briancollins/vim-jst'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'mxw/vim-jsx'
+Plugin 'elixir-editors/vim-elixir'
+Plugin 'slashmili/alchemist.vim'
+Plugin 'mmorearty/elixir-ctags'
 
 "
 " Development Tool Integration
@@ -151,7 +156,6 @@ call vundle#end()
 filetype plugin indent on
 
 syntax on
-set noswapfile
 set cursorline
 
 if need_to_install_plugins == 1
@@ -172,19 +176,21 @@ au BufRead,BufNewFile *.hamlc set ft=haml
 
 let dir = split(getcwd(), '/')[-1]
 let schemes = {
-  \ "app-workflow": "spacegray",
+  \ "app-workflow": "base16-materia",
   \ "api-product": "strawimodo",
   \ "api-brightree-connector": "tropikos",
   \ "api-email-ingestor": "two2tango",
   \ "api-event-logger": "up",
-  \ "api-insurance-services": "vilight",
+  \ "api-insurance-services": "materialbox",
   \ "app-landing": "vimbrant",
   \ "chat": "tesla",
   \ "cms-devops": "termschool",
   \ "etl-airflow": "tchaba",
-  \ "infrastructure": "tango-desert",
+  \ "infrastructure": "materialbox",
   \ }
 
-if has_key(schemes, dir)
+if has('gui_running') && has_key(schemes, dir)
   execute "colorscheme " . get(schemes, dir)
+else
+  colorscheme up
 endif

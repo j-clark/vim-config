@@ -46,12 +46,13 @@ set smartcase                   " Smart case-sensitivity when searching (overrid
 
 set autoread                    " No prompt for file changes outside Vim
 
-set swapfile                    " Keep swapfiles
+set noswapfile                  " No swapfiles
 set directory=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 set backupdir=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 
 set hls                         " search with highlights by default
 
+let g:vim_json_syntax_conceal = 0
 " Write all writeable buffers when changing buffers or losing focus.
 set autowriteall                " Save when doing various buffer-switching things.
 autocmd BufLeave,FocusLost * silent! wall  " Save anytime we leave a buffer or MacVim loses focus.

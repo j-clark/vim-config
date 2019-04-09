@@ -20,6 +20,7 @@ map Y           y$
 " Search
 nmap <leader>s  :%s/
 vmap <leader>s  :s/
+nmap <leader>f :FZF<CR>
 
 " Switch color schemes
 nmap <leader>Sn :NextColorScheme<CR>
