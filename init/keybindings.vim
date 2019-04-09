@@ -21,6 +21,7 @@ map Y           y$
 nmap <leader>s  :%s/
 vmap <leader>s  :s/
 nmap <leader>f :FZF<CR>
+nmap <leader>e :History<CR>
 
 " Switch color schemes
 nmap <leader>Sn :NextColorScheme<CR>
@@ -146,7 +147,6 @@ nnoremap <silent> <leader>F :CtrlPClearAllCaches<CR>:CtrlPCurWD<CR>
 
 " Additional mapping for buffer search
 nnoremap <silent> <leader>bb :CtrlPBuffer<cr>
-map <D-e> :CtrlPBuffer<CR>
 
 " Map most recently used
 nnoremap <silent> <C-p> :CtrlPMRU<cr>

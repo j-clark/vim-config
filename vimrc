@@ -107,8 +107,7 @@ Plugin 'epmatsw/ag.vim'
 Plugin 'tpope/vim-abolish'
 Plugin 'henrik/vim-qargs'
 Plugin 'junegunn/fzf'
-" Plugin 'kien/ctrlp.vim'
-" Plugin 'JazzCore/ctrlp-cmatcher'
+Plugin 'junegunn/fzf.vim'
 
 "
 " Navigation
