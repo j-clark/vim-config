@@ -89,8 +89,6 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'YankRing.vim'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'editorconfig/editorconfig-vim'
 Plugin 'tpope/vim-projectionist'
 Plugin 'junegunn/vim-easy-align'
 
@@ -102,10 +100,9 @@ Plugin 'ZoomWin'
 "
 " Searching
 "
-Plugin 'mileszs/ack.vim'
 Plugin 'epmatsw/ag.vim'
 Plugin 'tpope/vim-abolish'
-Plugin 'henrik/vim-qargs'
+" Plugin 'henrik/vim-qargs'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 
@@ -113,7 +110,7 @@ Plugin 'junegunn/fzf.vim'
 " Navigation
 "
 Plugin 'scrooloose/nerdtree'
-Plugin 'majutsushi/tagbar'
+" Plugin 'majutsushi/tagbar'
 
 "
 " Languages
@@ -121,19 +118,11 @@ Plugin 'majutsushi/tagbar'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'pangloss/vim-javascript'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'slim-template/vim-slim'
-Plugin 'nono/vim-handlebars'
-Plugin 'kchmck/vim-coffee-script'
+" Plugin 'slim-template/vim-slim'
 Plugin 'tpope/vim-haml'
-Plugin 'tpope/vim-cucumber'
-Plugin 'juvenn/mustache.vim'
 Plugin 'Blackrush/vim-gocode'
-Plugin 'rosstimson/scala-vim-support'
-Plugin 'guns/vim-clojure-static'
 Plugin 'chrisbra/csv.vim'
 Plugin 'elzr/vim-json'
-Plugin 'briancollins/vim-jst'
-Plugin 'digitaltoad/vim-jade'
 Plugin 'mxw/vim-jsx'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'slashmili/alchemist.vim'
@@ -145,11 +134,9 @@ Plugin 'mmorearty/elixir-ctags'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rhubarb'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'pivotal/tmux-config'
 Plugin 'tpope/vim-dispatch'
-Plugin 'carlobaldassi/ConqueTerm'
+" Plugin 'carlobaldassi/ConqueTerm'
 Plugin 'sjl/vitality.vim'
-Plugin 'brysgo/test_server'
 
 call vundle#end()
 filetype plugin indent on
