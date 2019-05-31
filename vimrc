@@ -35,7 +35,7 @@ Plugin 'gmarik/vundle'
 " Colorschemes
 "
 Plugin 'tpope/vim-vividchalk'
-Plugin 'chriskempson/base16-vim'
+" Plugin 'chriskempson/base16-vim'
 Plugin 'molokai'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'wgibbs/vim-irblack'
@@ -127,6 +127,8 @@ Plugin 'mxw/vim-jsx'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'slashmili/alchemist.vim'
 Plugin 'mmorearty/elixir-ctags'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'peitalin/vim-jsx-typescript'
 
 "
 " Development Tool Integration
@@ -162,7 +164,7 @@ au BufRead,BufNewFile *.hamlc set ft=haml
 
 let dir = split(getcwd(), '/')[-1]
 let schemes = {
-  \ "app-workflow": "base16-materia",
+  \ "app-workflow": "codeschool",
   \ "api-product": "strawimodo",
   \ "api-brightree-connector": "tropikos",
   \ "api-email-ingestor": "two2tango",
