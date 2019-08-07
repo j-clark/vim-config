@@ -20,7 +20,7 @@ map Y           y$
 " Search
 nmap <leader>s  :%s/
 vmap <leader>s  :s/
-nmap <leader>f :GFiles<CR>
+nmap <leader>f :FZF<CR>
 nmap <leader>F :History<CR>
 
 " Switch color schemes
