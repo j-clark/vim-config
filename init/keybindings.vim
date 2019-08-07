@@ -161,6 +161,10 @@ map <D-F> :Ag<Space>
 " Convert a word to to let(:word) { double(:word) }
 nmap <leader>ld <Plug>LocalMakelet
 
+map <leader><C-N> :GFiles<CR>
+map <leader>n :GFiles<CR>
+map <D-N> :GFiles<CR>
+
 
 " junegunn/vim-easy-align
 "
