@@ -91,6 +91,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'YankRing.vim'
 Plugin 'tpope/vim-projectionist'
 Plugin 'junegunn/vim-easy-align'
+Plugin 'chrisbra/Colorizer'
 
 "
 " Window Management
@@ -129,6 +130,7 @@ Plugin 'slashmili/alchemist.vim'
 Plugin 'mmorearty/elixir-ctags'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'peitalin/vim-jsx-typescript'
+Plugin 'Quramy/tsuquyomi'
 
 "
 " Development Tool Integration
@@ -164,7 +166,7 @@ au BufRead,BufNewFile *.hamlc set ft=haml
 
 let dir = split(getcwd(), '/')[-1]
 let schemes = {
-  \ "app-workflow": "codeschool",
+  \ "app-workflow": "kolor",
   \ "api-product": "strawimodo",
   \ "api-brightree-connector": "tropikos",
   \ "api-email-ingestor": "two2tango",
